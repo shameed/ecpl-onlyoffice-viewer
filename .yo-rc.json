@@ -1,0 +1,14 @@
+{
+  "generator-angular-library": {
+    "githubUsername": "shameed",
+    "githubRepoName": "ecpl-onlyoffice-viewer",
+    "npmModuleName": "ecpl-onlyoffice-viewer",
+    "moduleGlobal": "ecplOnlyofficeViewer",
+    "ngModuleName": "EcplOnlyofficeViewerModule",
+    "selectorPrefix": "ecpl",
+    "projectTitle": "Ecpl Only Office Viewer",
+    "projectDescription": "Ecpl Only Office Viewer",
+    "authorName": "Hameed",
+    "packageManager": "npm"
+  }
+}

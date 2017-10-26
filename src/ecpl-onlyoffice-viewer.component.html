@@ -1,0 +1,19 @@
+<a href="javascript:void(0)" (click)="showModal()" id="onlyoffice-file-{{id}}">
+    <img src="/src/images/{{onlyofficeType}}.png" alt="Office File">
+</a>
+
+<div class="onlyoffice-modal" [hidden]="!showModalWindow" id="onlyoffice-pop-{{id}}">
+    <div class="modal-dialog">
+        <div class="modal-header">
+            <div style="padding: 5px;">
+                <img src="/src/images/{{onlyofficeType}}.png" alt="Office File" class="onlyoffice-icon-header pull-left">
+                <h3 class="pull-left">{{onlyofficeName}}</h3>
+            </div>
+            <button (click)="hideModal()" class="pull-right">x</button>
+        </div>
+        <div class="modal-body">
+            <div id="placeholder"></div>
+        </div>
+    </div>
+
+</div>
