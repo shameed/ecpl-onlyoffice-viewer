@@ -8,7 +8,6 @@ import {
   ViewChild,
   ElementRef
 } from '@angular/core';
-import { EditorConfig } from './editorConfig';
 import './js/onlyoffice-api.js';
 
 declare var DocsAPI: any;
