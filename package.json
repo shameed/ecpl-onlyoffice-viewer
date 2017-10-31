@@ -1,6 +1,6 @@
 {
     "name": "ecpl-onlyoffice-viewer",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "description": "Ecpl Only Office Viewer",
     "main": "./bundles/ecpl-onlyoffice-viewer.umd.js",
     "module": "./index.js",
