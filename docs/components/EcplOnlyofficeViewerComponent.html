@@ -102,9 +102,6 @@
                                 <li class="link">
                                     <a href="../components/EcplOnlyofficeViewerComponent.html"  data-type="entity-link" class="active" >EcplOnlyofficeViewerComponent</a>
                                 </li>
-                                <li class="link">
-                                    <a href="../components/HelloWorldComponent.html" >HelloWorldComponent</a>
-                                </li>
                         </ul>
                     </li>
             
@@ -246,9 +243,6 @@
                                        </li>
                                        <li class="link">
                                            <a href="../components/EcplOnlyofficeViewerComponent.html"  data-type="entity-link" class="active" >EcplOnlyofficeViewerComponent</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../components/HelloWorldComponent.html" >HelloWorldComponent</a>
                                        </li>
                                </ul>
                            </li>
@@ -1155,7 +1149,7 @@ export class EcplOnlyofficeViewerComponent implements OnInit, AfterViewInit {
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
         var COMPONENT_TEMPLATE = '<div><a href="javascript:void(0)" (click)="showModal()" id="onlyoffice-file-{{id}}">  <img src="/assets/icons/{{onlyofficeType}}.png" alt="Office File"></a><div class="onlyoffice-modal" [hidden]="!showModalWindow" id="onlyoffice-pop-{{id}}">    <div class="modal-dialog">        <div class="modal-header">            <div style="padding: 5px;">                <img src="/assets/icons/{{onlyofficeType}}.png" alt="Office File" class="onlyoffice-icon-header pull-left">                <h3 class="pull-left">{{onlyofficeName}}</h3>            </div>            <button (click)="hideModal()" class="pull-right">x</button>        </div>        <div class="modal-body">            <div id="placeholder"></div>        </div>    </div></div></div>'
-    var COMPONENTS = [{'name': 'DemoComponent', 'selector': 'ecpl-demo-app'},{'name': 'EcplOnlyofficeViewerComponent', 'selector': 'ecpl-onlyoffice-viewer'},{'name': 'HelloWorldComponent', 'selector': 'ecpl-hello-world'}];
+    var COMPONENTS = [{'name': 'DemoComponent', 'selector': 'ecpl-demo-app'},{'name': 'EcplOnlyofficeViewerComponent', 'selector': 'ecpl-onlyoffice-viewer'}];
     var DIRECTIVES = [];
     var ACTUAL_COMPONENT = {'name': 'EcplOnlyofficeViewerComponent'};
 </script>
